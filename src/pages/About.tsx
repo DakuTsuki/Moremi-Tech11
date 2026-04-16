@@ -54,7 +54,7 @@ const teamMembers = [
   {
     name: "Adebayo Ademola Fuhad",
     role: "Web Developer",
-    image: "/images/team/team5.heic",
+    image: "/images/team/team5.jpg",
   }
 ];
 
