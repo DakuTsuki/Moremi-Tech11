@@ -101,9 +101,7 @@ const About = () => {
               and for the bright future of Africa. 🇳🇬
             </p>
 
-            <p className="text-foreground font-semibold mt-4">
-              ~SOOKO Adefolahan Ibiyemi Chairman / Board of Trustees
-            </p>
+            
 
             {/* Continuation */}
             <p className="text-muted-foreground text-lg leading-relaxed mt-6">
