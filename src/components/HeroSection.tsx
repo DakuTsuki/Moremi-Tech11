@@ -14,13 +14,12 @@ const HeroSection = () => {
               [ Est. 2020 — Lagos, Nigeria ]
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-foreground leading-[1.1] mb-6 animate-fade-in-up">
-              The future{" "}
+             Building The Next {" "}
               <br className="hidden md:block" />
-              is <span className="text-gradient">hers.</span>
+              Female <span className="text-gradient">Techstars.</span>
             </h1>
             <p className="text-muted-foreground max-w-md text-base md:text-lg leading-relaxed mb-8 animate-fade-in-up" style={{ animationDelay: "150ms" }}>
-              Moremi Techstars equips young women with cutting-edge digital skills, mentorship,
-              and an unshakeable community to lead in tech.
+             Empowering girls and women in embracing the technology of the future and advancing women in technology from the bootcamp to the workspace.
             </p>
             <div className="flex flex-wrap items-center gap-4 animate-fade-in-up" style={{ animationDelay: "300ms" }}>
               <Link to="/programs">
