@@ -11,13 +11,13 @@ import About from "./pages/About.tsx";
 import Programs from "./pages/Programs.tsx";
 import Events from "./pages/Events.tsx";
 import Contact from "./pages/Contact.tsx";
+import Donate from "./pages/Donate.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
 
 const App = () => {
   const [loading, setLoading] = useState(true);
-
   const handleLoadComplete = useCallback(() => setLoading(false), []);
 
   return (
@@ -33,6 +33,7 @@ const App = () => {
             <Route path="/programs" element={<PageTransition><Programs /></PageTransition>} />
             <Route path="/events" element={<PageTransition><Events /></PageTransition>} />
             <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
+            <Route path="/donate" element={<PageTransition><Donate /></PageTransition>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
