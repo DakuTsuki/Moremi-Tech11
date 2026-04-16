@@ -98,25 +98,6 @@ const Donate = () => {
         </div>
       </section>
 
-      {/* Optional External Link */}
-      <section className="pb-20 text-center">
-        <AnimateOnScroll animation="animate-fade-in-up">
-          <p className="text-muted-foreground mb-4">
-            Prefer donating online?
-          </p>
-
-          <a
-            href="https://jyrehfoundation.org/donate/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="rounded-full">
-              Visit Donation Page
-            </Button>
-          </a>
-        </AnimateOnScroll>
-      </section>
-
       <Footer />
     </div>
   );
