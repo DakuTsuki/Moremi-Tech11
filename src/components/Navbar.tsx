@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <Link to="/" className="flex items-center gap-2">
           <span className="text-xl font-bold font-heading text-foreground">
-            <img src={Logo} className="w-[9rem]"/>
+            <img src={Logo} alt="" className="w-[9rem]"/>
           </span>
         </Link>
 
