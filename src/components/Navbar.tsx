@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import  Logo  from "@/assets/logo.png"
+import Logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -21,11 +21,10 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <Link to="/" className="flex items-center gap-2">
           <span className="text-xl font-bold font-heading text-foreground">
-            <img src={Logo} alt="" className="w-[9rem]"/>
+            <img src={Logo} alt="Moremi Techstars" className="w-[9rem]" />
           </span>
         </Link>
 
-        {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
@@ -40,12 +39,13 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <Button variant="default" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground rounded-full px-6 text-xs tracking-wider uppercase">
-            Donate
-          </Button>
+          <Link to="/donate">
+            <Button variant="default" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground rounded-full px-6 text-xs tracking-wider uppercase">
+              Donate
+            </Button>
+          </Link>
         </div>
 
-        {/* Mobile Toggle */}
         <button
           className="md:hidden text-foreground"
           onClick={() => setIsOpen(!isOpen)}
@@ -55,7 +55,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Nav */}
       {isOpen && (
         <div className="md:hidden bg-background border-t border-border px-4 pb-4 animate-fade-in">
           {navLinks.map((link) => (
@@ -72,9 +71,11 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <Button variant="default" className="mt-2 w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground rounded-full">
-            Donate
-          </Button>
+          <Link to="/donate" onClick={() => setIsOpen(false)}>
+            <Button variant="default" className="mt-2 w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground rounded-full">
+              Donate
+            </Button>
+          </Link>
         </div>
       )}
     </nav>
