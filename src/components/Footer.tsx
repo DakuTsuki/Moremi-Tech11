@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
-import Logo from "@/assets/logo.png";
+import FooterLogo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground py-16">
@@ -10,7 +10,7 @@ const Footer = () => (
         {/* Brand */}
         <div>
           <Link to="/" className="text-xl font-bold font-heading">
-            <img src={Logo} alt="Moremi Techstars" className="w-[9rem]" />
+            <img src={FooterLogo} alt="Moremi Techstars" className="w-[9rem]" />
           </Link>
           <p className="text-primary-foreground/70 text-sm leading-relaxed mt-4">
             Bridging the Gap in the tech industry by empowering girls and women with skills and confidence they need to succeed in tech-related fields.
