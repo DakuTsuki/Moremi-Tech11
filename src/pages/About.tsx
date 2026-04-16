@@ -24,10 +24,11 @@ const About = () => {
               More than just <span className="text-gradient">code.</span>
             </h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Founded in 2020 in Lagos, Nigeria, Moremi Techstars Foundation was born from a simple belief: 
-              the future of technology must include the voices, ideas, and leadership of women. We're bridging 
-              the gender gap in tech by empowering girls and women with cutting-edge digital skills, mentorship, 
-              and an unshakeable community.
+              My father’s stories of Queen Moremi Ajasoro stayed with me. Her bravery in Ile-Ife inspired me to look at the tech industry and ask: Where are the women? According to UNESCO, women are still vastly under-represented in STEM. In a field where 91.7% of developers are male, Moremi Techstars Foundation is here to disrupt the status quo. We are a non-profit powered by passion and a team of incredible volunteers. We exist to educate, equip, and empower African girls to step into the light of technology. Whether it’s inspiring a young girl to pick up her first laptop or supporting a woman navigating a tech career, we are here to ensure the future of tech is female. Let’s build this legacy together. For our daughters, for Nigeria, and for the bright future of Africa. 
+              
+              <br/>
+              
+              <span className="text-black">🇳🇬~Adetogun Samuel Adegunju.</span>
             </p>
           </AnimateOnScroll>
         </div>

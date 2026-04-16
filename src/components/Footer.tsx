@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail } from "lucide-react";
+import Logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -9,11 +10,12 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="text-xl font-bold font-heading">
-              MÒREMI<span className="text-secondary">.</span>
+              <img src={Logo} alt="" className="w-[9rem]" />
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mt-4">
-              Bridging the Gap in the tech industry by empowering girls and women with
-              skills and confidence they need to succeed in tech-related fields.
+              Bridging the Gap in the tech industry by empowering girls and
+              women with skills and confidence they need to succeed in
+              tech-related fields.
             </p>
           </div>
 
@@ -21,11 +23,43 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold font-heading mb-4">Company</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/70">
-              <li><Link to="/" className="hover:text-secondary transition-colors">Home</Link></li>
-              <li><Link to="/about" className="hover:text-secondary transition-colors">About Us</Link></li>
-              <li><Link to="/programs" className="hover:text-secondary transition-colors">Programs</Link></li>
-              <li><Link to="/events" className="hover:text-secondary transition-colors">Events</Link></li>
-              <li><Link to="/contact" className="hover:text-secondary transition-colors">Contact Us</Link></li>
+              <li>
+                <Link to="/" className="hover:text-secondary transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/about"
+                  className="hover:text-secondary transition-colors"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/programs"
+                  className="hover:text-secondary transition-colors"
+                >
+                  Programs
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/events"
+                  className="hover:text-secondary transition-colors"
+                >
+                  Events
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="hover:text-secondary transition-colors"
+                >
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -46,7 +80,8 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-6 text-center text-xs text-primary-foreground/50">
-          © {new Date().getFullYear()} Moremi Techstars Foundation. All rights reserved.
+          © {new Date().getFullYear()} Moremi Techstars Foundation. All rights
+          reserved.
         </div>
       </div>
     </footer>
