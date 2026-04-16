@@ -94,7 +94,7 @@ const About = () => (
           </p>
 
           <p className="text-foreground font-semibold mt-4">
-            ~Adetogun Samuel Adegunju.
+            ~SOOKO Adefolahan Ibiyemi Chairman / Board of Trustees
           </p>
 
           {/* NEW CONTINUATION */}
