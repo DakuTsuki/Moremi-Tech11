@@ -51,6 +51,11 @@ const teamMembers = [
     role: "Brand Manager",
     image: "/images/team/team4.jpg",
   },
+  {
+    name: "Adebayo Ademola Fuhad",
+    role: "Web Developer",
+    image: "/images/team/team5.heic",
+  }
 ];
 
 const About = () => {
