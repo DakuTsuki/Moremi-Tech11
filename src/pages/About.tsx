@@ -34,22 +34,22 @@ const teamMembers = [
   {
     name: "SOOKO Adefolahan Ibiyemi",
     role: "Chairman / Board of Trustees",
-    image: "https://moremitechstars.org/images/team1.jpg",
+    image: "/images/team/team1.jpg",
   },
   {
     name: "Adetogun Samuel Adegunju",
     role: "Founder / Project Manager",
-    image: "https://moremitechstars.org/images/team2.png",
+    image: "/images/team/team2.jpg",
   },
   {
     name: "Olajumoke Odunsi",
     role: "Community Development Manager",
-    image: "https://moremitechstars.org/images/team3.png",
+    image: "/images/team/Team3.jpg",
   },
   {
     name: "Oki Betty Ayomide",
     role: "Brand Manager",
-    image: "https://moremitechstars.org/images/team4.png",
+    image: "/images/team/team4.jpg",
   },
 ];
 
