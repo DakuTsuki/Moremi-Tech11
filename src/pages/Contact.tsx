@@ -28,6 +28,7 @@ const Contact = () => {
       <section className="pb-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            
             {/* Contact Form */}
             <AnimateOnScroll animation="animate-slide-in-left">
               <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
@@ -41,18 +42,22 @@ const Contact = () => {
                     <Input placeholder="Doe" className="rounded-lg" />
                   </div>
                 </div>
+
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1.5 block">Email</label>
                   <Input type="email" placeholder="jane@example.com" className="rounded-lg" />
                 </div>
+
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1.5 block">Subject</label>
                   <Input placeholder="How can we help?" className="rounded-lg" />
                 </div>
+
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1.5 block">Message</label>
                   <Textarea placeholder="Tell us more..." className="rounded-lg min-h-[120px]" />
                 </div>
+
                 <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground rounded-full w-full py-3 transition-transform hover:scale-[1.02]">
                   Send Message
                 </Button>
@@ -62,6 +67,7 @@ const Contact = () => {
             {/* Contact Info */}
             <AnimateOnScroll animation="animate-slide-in-right">
               <div className="space-y-8">
+                
                 <div>
                   <h3 className="text-xl font-semibold font-heading text-foreground mb-4">Get in touch</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">
@@ -69,44 +75,71 @@ const Contact = () => {
                     reach out. We respond within 24 hours.
                   </p>
                 </div>
+
                 <div className="space-y-5">
+                  
+                  {/* Email */}
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center shrink-0">
                       <Mail className="w-5 h-5 text-secondary" />
                     </div>
                     <div>
                       <p className="font-medium text-foreground text-sm">Email</p>
-                      <p className="text-muted-foreground text-sm">Moremi@gmail.com</p>
+                      <p className="text-muted-foreground text-sm">
+                        hello@moremitechstars.org
+                      </p>
                     </div>
                   </div>
+
+                  {/* Phone */}
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center shrink-0">
                       <Phone className="w-5 h-5 text-secondary" />
                     </div>
                     <div>
                       <p className="font-medium text-foreground text-sm">Phone</p>
-                      <p className="text-muted-foreground text-sm">+234-816-263-8910</p>
+                      <p className="text-muted-foreground text-sm">
+                        08166301570, 08062598240
+                      </p>
                     </div>
                   </div>
+
+                  {/* Address */}
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center shrink-0">
                       <MapPin className="w-5 h-5 text-secondary" />
                     </div>
                     <div>
                       <p className="font-medium text-foreground text-sm">Location</p>
-                      <p className="text-muted-foreground text-sm">Lagos, Nigeria</p>
+                      <p className="text-muted-foreground text-sm">
+                        24, Oremeji Street, Ilupeju, Lagos, Nigeria
+                      </p>
                     </div>
                   </div>
+
                 </div>
 
                 <div className="bg-primary rounded-xl p-6 mt-8">
-                  <h4 className="font-semibold text-primary-foreground mb-2">Want to partner with us?</h4>
+                  <h4 className="font-semibold text-primary-foreground mb-2">
+                    Want to partner with us?
+                  </h4>
                   <p className="text-primary-foreground/70 text-sm leading-relaxed">
                     We're always looking for organizations, mentors, and sponsors to help us reach more girls across Africa.
                   </p>
                 </div>
+
               </div>
             </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Contact;            </AnimateOnScroll>
           </div>
         </div>
       </section>
