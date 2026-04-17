@@ -139,14 +139,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;            </AnimateOnScroll>
-          </div>
-        </div>
-      </section>
-
-      <Footer />
-    </div>
-  );
-};
-
 export default Contact;
