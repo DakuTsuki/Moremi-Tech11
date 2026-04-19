@@ -13,9 +13,9 @@ const programs = [
     title: "Web Development",
     description: "HTML, CSS, JavaScript, React — build real projects from day one. Our bootcamp takes you from beginner to job-ready in 12 weeks.",
     gallery: [
-      { src: "/gallery/1.jpg", caption: "Students building their first website" },
-      { src: "/gallery/2.jpg", caption: "React workshop — component architecture" },
-      { src: "/gallery/3.jpg", caption: "Web Dev Cohort 5 graduation" },
+      { src: "/gallery/program1.jpg", caption: "Students building their first website" },
+      { src: "/gallery/programs.jpg", caption: "React workshop — component architecture" },
+      { src: "/gallery/extra.jpg", caption: "Web Dev Cohort 5 graduation" },
     ],
   },
   {

@@ -120,9 +120,9 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
-              "https://moremitechstars.org/images/about1.png",
-              "https://moremitechstars.org/images/about2.jpg",
-              "https://moremitechstars.org/images/about3.png",
+              "/public/gallery/aboutUs1.jpg",
+              "/public/gallery/aboutUs2.jpg",
+              "/public/gallery/aboutUs3.jpg",
             ].map((src, i) => (
               <AnimateOnScroll
                 key={i}
